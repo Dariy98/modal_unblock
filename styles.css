@@ -55,6 +55,7 @@ hr {
 }
 .author {
     display: flex;
+    cursor: pointer;
 }
 .author img {
     width: 60px;
@@ -78,6 +79,9 @@ hr {
     padding-right: 21px;
     border-radius: 5px;
     cursor: pointer;
+}
+.tab:hover {
+    background-color: #090979;
 }
 .people {
     background-color: #090979;
