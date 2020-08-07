@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper" class="">
+        <header class="header">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+                <h2 class="header-title">G5 Friends<sup class="TM">TM</sup></h2>
+            </div>
+            <h2 class="header-title chat-header">Chat with your friends</h2>
+        </header>
+
+        <div class="content">
+            <aside class="aside">
+                <div class="tabs">
+                    <div class="tab resent">
+                        <img src="images/clock.png" class="tab-image" alt="clock">
+                        <h3>Resent</h3>
+                    </div>
+                    <div class="tab people">
+                        <img src="images/notebook.png" class="tab-image" alt="clock">
+                        <h3>People</h3>
+                    </div>
+                </div>
+                <div class="toggle">
+                    <div class="buttons">
+                        <button class="button active">All</button>
+                        <button class="button">Active</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="scroll">
+                    <div class="author">
+                        <img src="images/avatar.png" alt="author">
+                        <h4 class="name">baufix</h4>
+                    </div>
+                    <hr>
+                    <div class="author">
+                        <img src="images/avatar.png" alt="author">
+                        <h4 class="name">ella</h4>
+                    </div>
+                    <hr>
+                    <div class="author">
+                        <img src="images/avatar.png" alt="author">
+                        <h4 class="name">Fran</h4>
+                    </div>
+                    <hr>
+                    <div class="author">
+                        <img src="images/avatar.png" alt="author">
+                        <h4 class="name">invocl</h4>
+                    </div>
+                    <hr>
+                    <div class="author">
+                        <img src="images/avatar.png" alt="author">
+                        <h4 class="name">jeannie</h4>
+                    </div>
+                    <hr>
+                    <div class="author">
+                        <img src="images/avatar.png" alt="author">
+                        <h4 class="name">lorem</h4>
+                    </div>
+                    <hr>
+                </div>
+            </aside>
+
+            <main class="main">
+
+                <div class="chat-info">
+                    <div class="interlocutor">
+                        <h3>Fran</h3>
+                        <h3 class="whenVisit">Last visit 9 hour(s) ago</h3>
+                    </div>
+                    <div class="chat-body">
+                        <h3>Fran is blocked since 12 Apr 2016</h3>
+                        <button class="unblock">Unblock</button>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <footer class="footer">
+            <div class="menu-item">
+                <img src="images/star.png" alt="star">
+                <p>My profile</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/friends.png" alt="friends">
+                <p class="exception">Friends</p>
+            </div>
+            <div class="menu-item is-active">
+                <img src="images/chat.png" alt="chat">
+                <p>Chat</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/invite.png" alt="invite">
+                <p>Invite friends</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/gifts.png" alt="gifts">
+                <p>Gifts</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/envelope.png" alt="envelope">
+                <p>Requests</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/trophy.png" alt="Top">
+                <p>Top 100</p>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <h1 class="modal-title">Are you sure you want to unblock Fran?</h1>
+            <img src="images/avatar.png" alt="avatar">
+            <div class="buttons-in-modal">
+                <button class="modal_button">
+                    <img src="images/check.png" alt="check">
+                    Unblock
+                </button>
+                <button class="modal_button" id="cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
